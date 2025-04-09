@@ -1,0 +1,15 @@
+
+<div>
+  <p style="text-transform: uppercase; margin-top: 20px">lista contatti:</p>
+
+  <div>
+    <div *ngFor="let persona of persone; index as i">
+      <a routerLink="/contact/{{i}}"><p>{{persona.nome}} {{persona.email}}</p></a>
+    </div>
+  </div>
+</div>
+
+
+
+<router-outlet></router-outlet>
+

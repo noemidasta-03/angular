@@ -1,3 +1,33 @@
-<app-prova></app-prova>
+
+<!--<app-prova [data]="persone"></app-prova>
+<button (click)="onClick()">Cambia</button>-->
+
+
+<!--<app-prova [data]="persone"  (mandaDatiEvento)="ricezioneEvento($event.nome)" ></app-prova>-->
+
+<!--
+<input #inputSaluti value="ciao">
+<button (click)="onClick()"></button>
+
+<h2>Scegli il colore dell'evidenziatore</h2>
+<div>
+  <input type="radio" name="coloreEvidenziatore" (click)="cambiaColoreEvidenziatore('red')">rosso
+  <input type="radio" name="coloreEvidenziatore" (click)="cambiaColoreEvidenziatore('pink')">rosa
+  <input type="radio" name="coloreEvidenziatore" (click)="cambiaColoreEvidenziatore('purple')">viola
+</div>
+<p [appHightlight]="colore" defaultColor='green'>ciao sono un paragrafo </p>
+
+<p>Ciao è il  {{oggi | date:'medium'}}</p>
+
+<app-prova ></app-prova>-->
+
+
+<a routerLink="/" style="margin-right: 10px">Home</a>
+<a routerLink="contact" style="margin-right: 10px">Contact</a>
+<button (click)="onLogout()">Logout</button>
+
+<router-outlet></router-outlet>
+
+
 
 
